@@ -9,4 +9,4 @@ RUN rustup toolchain install stable-x86_64-pc-windows-gnu
 
 WORKDIR /app
 
-CMD ["cargo", "build", "--target", "x86_64-pc-windows-gnu"]
+ENTRYPOINT ["cargo", "build", "--target", "x86_64-pc-windows-gnu"]
