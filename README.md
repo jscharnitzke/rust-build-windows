@@ -15,3 +15,7 @@ Debug Builds: `docker run -rm -v "[path-to-Rust-project]:/app -w /app [image-nam
 Release Builds: `docker run -rm -v "[path-to-Rust-project]:/app -w /app [image-name] --release`
 
 `.exe` files will be output in `[path-to-Rust-project]/target/x86_64-pc-windows-gnu/[debug|release]`.
+
+## Public Image
+
+If you want, you can use a pre-built image that I've published to Docker Hub: [jscharnitzke/rust-build-windows](https://hub.docker.com/r/jscharnitzke/rust-build-windows)
