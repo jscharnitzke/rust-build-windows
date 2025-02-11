@@ -1,6 +1,6 @@
 # Build Rust Projects for Windows
 
-This is just a simple Dockerfile that defines a Docker image to build Rust projects targeting Windows.
+The official Rust Docker image is configured to build for Linux targets out-of-the-box. This Dockerfile defines a Docker image to build Rust projects targeting Windows instead.
 
 ## Build
 
