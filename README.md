@@ -14,4 +14,4 @@ Debug Builds: `docker run -rm -v "[path-to-Rust-project]:/app -w /app [image-nam
 
 Release Builds: `docker run -rm -v "[path-to-Rust-project]:/app -w /app [image-name] --release`
 
-`.exe` files will be output in `[path-to-Rust-project]/target/x86_64-pc-windows-gnu/release`.
+`.exe` files will be output in `[path-to-Rust-project]/target/x86_64-pc-windows-gnu/[debug|release]`.
